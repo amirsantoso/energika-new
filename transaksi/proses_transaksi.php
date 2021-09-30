@@ -1,4 +1,5 @@
 <?php
+include ('../config/parser-php-version.php');
 	include "../config/koneksi.php";
 
 $kode_anggota		= $_POST['kode_anggota'];	
