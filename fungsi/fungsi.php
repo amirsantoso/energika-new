@@ -1,5 +1,4 @@
 <?php
-include ('config/parser-php-version.php');
 	function kode($tabel, $initial){
 		$struct = mysql_query("SELECT * FROM $tabel");
 		$field  = mysql_field_name($struct,0);
