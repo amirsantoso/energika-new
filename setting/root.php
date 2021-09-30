@@ -3,8 +3,8 @@ class root
 {
 	function __construct()
 	{
-		mysql_connect('localhost','root','A177irs1m918@123');
-		mysql_select_db('db_harusjadi');
+		mysql_connect('eu-cdbr-west-01.cleardb.com','b08b36868116a6','c7b82c31');
+		mysql_select_db('heroku_f686e8cfe62ca31');
 	}
 	public function tambahpinjam($kode,$kode_jenis_pinjam,$nama_pinjaman,$lama_angsur,$maks_pinjam,$u_entry,$bunga,$c,$tgl_entri)
 	{
