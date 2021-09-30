@@ -1,10 +1,10 @@
 <?php
 include ('parser-php-version.php');
 	ini_set('display_errors',FALSE);
-	$host	= "localhost";
-	$user	= "root";
-	$pass	= "A177irs1m918@123";
-	$db		= "db_harusjadi";
+	$host	= "eu-cdbr-west-01.cleardb.com";
+	$user	= "b08b36868116a6";
+	$pass	= "c7b82c31";
+	$db	= "heroku_f686e8cfe62ca31";
 	
 	
 	$koneksi=mysql_connect($host,$user,$pass);
