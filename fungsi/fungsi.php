@@ -1,5 +1,5 @@
 <?php
-include ('config/parser-php-version.php');
+include ('../config/parser-php-version.php');
 ?>
 <?php
 	function kode($tabel, $initial){
