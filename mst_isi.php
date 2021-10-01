@@ -1,5 +1,6 @@
 <?php
-include "config/koneksi.php";
+session_start();
+require('config/koneksi.php');
 $ghu=mysql_query("SELECT * FROM t_tabungan");
 $no=1;
 while($dataku=mysql_fetch_array($ghu))
