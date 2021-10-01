@@ -1,7 +1,7 @@
 <?php
-	//include "config/parser-php-version.php";
-	include ('config/koneksi.php');
-	include ('fungsi/fungsi.php');
+session_start();
+require('config/koneksi.php');
+require('fungsi/fungsi.php');
 
 	$aksi=$_GET['aksi'];
 	
